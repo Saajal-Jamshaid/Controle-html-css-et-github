@@ -1,0 +1,23 @@
+.title {
+    font-size: 65px; /* Adjust the font size as needed */
+    color: #ff0000; /* Set text color to white for better contrast */
+    text-align: center; /* Center the text horizontally */
+    padding: 20px 0; /* Add padding to the top and bottom for spacing */
+    background-color: #690101; /* Red background color */
+}
+.Menu {
+    font-size: 25px; /* Adjust the font size as needed */
+    color: #000000; /* Set text color to white for better contrast */
+    text-align: match-parent; /* Center the text horizontally */
+    padding: 50px 0; /* Add padding to the top and bottom for spacing */
+    background-color: #4267ad; /* Red background color */
+}
+
+.Footer {
+    font-size: 25px; /* Adjust the font size as needed */
+    color: #000000; /* Set text color to white for better contrast */
+    text-align: center; /* Center the text horizontally */
+    padding: 50px 0; /* Add padding to the top and bottom for spacing */
+    background-color: yellowgreen; /* Red background color */
+}
+
