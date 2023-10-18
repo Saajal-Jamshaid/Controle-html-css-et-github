@@ -2,22 +2,44 @@
     font-size: 65px; /* Adjust the font size as needed */
     color: #ff0000; /* Set text color to white for better contrast */
     text-align: center; /* Center the text horizontally */
-    padding: 20px 0; /* Add padding to the top and bottom for spacing */
+    padding: 40px 80px; /* Add padding to the top and bottom for spacing */
     background-color: #690101; /* Red background color */
 }
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set the body to take the full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
 .Menu {
-    font-size: 25px; /* Adjust the font size as needed */
-    color: #000000; /* Set text color to white for better contrast */
-    text-align: match-parent; /* Center the text horizontally */
-    padding: 50px 0; /* Add padding to the top and bottom for spacing */
-    background-color: #4267ad; /* Red background color */
+    flex: 1; /* Let the Menu take up the remaining space */
+    font-size: 25px;
+    color: #000000;
+    text-align: match-parent;
+    padding: 50px 0;
+    background-color: #4267ad;
 }
 
 .Footer {
-    font-size: 25px; /* Adjust the font size as needed */
-    color: #000000; /* Set text color to white for better contrast */
+    background-color: yellowgreen;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0 120px; /* Adjust the top padding to push the text to the top */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.Contenu-1 {
+    background-color: #6495ED; /* Blue background color */
+    color: #ffffff; /* White text color */
+    padding: 20px; /* Add padding to the content for better visibility */
     text-align: center; /* Center the text horizontally */
-    padding: 50px 0; /* Add padding to the top and bottom for spacing */
-    background-color: yellowgreen; /* Red background color */
+}
+
+.Contenu-1 img {
+    max-width: 100%; /* Ensure the image fits within the div */
+    height: auto;
 }
 
