@@ -5,6 +5,7 @@
     padding: 40px 80px; /* Add padding to the top and bottom for spacing */
     background-color: #690101; /* Red background color */
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,14 +13,12 @@ body {
     margin: 0; /* Remove default margin */
 }
 
-.Menu {
-    flex: 1; /* Let the Menu take up the remaining space */
-    font-size: 25px;
-    color: #000000;
-    text-align: match-parent;
-    padding: 50px 0;
-    background-color: #4267ad;
+.divider {
+    height: 2px;
+    background-color: #fff; /* White line */
+    margin: 15px 0; /* Adjust the margin for spacing */
 }
+
 
 .Footer {
     background-color: yellowgreen;
@@ -31,15 +30,28 @@ body {
     width: 100%;
 }
 
+.Menu {
+    flex: 1;
+    font-size: 25px;
+    color: #000000;
+    text-align: match-parent;
+    padding: 5px; /* Reduce the padding to take up less space */
+    background-color: #6495ED;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align the content to the left */
+}
+
 .Contenu-1 {
-    background-color: #6495ED; /* Blue background color */
+    width: 30%; /* Set the width to 80% of the Menu */
+    background-color: #4267ad; /* Blue background color */
     color: #ffffff; /* White text color */
     padding: 20px; /* Add padding to the content for better visibility */
     text-align: center; /* Center the text horizontally */
+    margin: 10px; /* Add margin for spacing */
 }
 
 .Contenu-1 img {
-    max-width: 100%; /* Ensure the image fits within the div */
+    max-width: 50%; /* Ensure the image fits within the div */
     height: auto;
 }
-
